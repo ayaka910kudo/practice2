@@ -27,10 +27,10 @@ header .header-layout {
   /* background-color: aqua; */
   min-width: 20%;
   height: 70%;
-  display: flex;
-  justify-content: space-around ;
-}
 
+  display: flex;
+  justify-content: space-around;
+}
 
 main {
   width: 100%;
@@ -41,30 +41,78 @@ main {
 main .container {
   width: 80%;
   height: 100%;
-  background-color: bisque;
+  background-color: rgb(206, 136, 50);
   display: flex;
 }
 
 .side-menu {
   min-width: 30%;
   background-color: #fae3d9;
+  display: flex;
+  justify-content: center;
+}
+
+.flame-side-menu {
+  padding-top: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-items: center; */
+}
+
+.box-items {
+  background: white;
+  /* padding: 0px; */
+  border-radius: 25px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.box-items p {
+  color: #ffb6b9;
+  margin: 0;
+  padding: 5px;
 }
 
 .content {
   min-width: 70%;
-  background-color: lightpink;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
 }
 
 .main-view {
   width: 100%;
-  height: 500px;
-  background-color: lightsalmon;
+  /* height: 500px; */
+  background-color: yellow;
 }
 
+.img-knit {
+  width: 100%;
+}
 .recommend {
   width: 100%;
   min-height: 900px;
-  background-color: #fcfcfc;
+  background-color: rgb(148, 148, 246);
+  display: flex;
+  /* padding: 0;
+  margin: 0; */
+}
+
+.frame-recommend-title {
+  width: 100%;
+  height: 30px;
+  background-color: chartreuse;
+  padding: 0;
+  margin: 0;
+}
+
+.frame-items{
+  background-color: teal;
+  min-height: 50px;
+  width: 100%;
 }
 
 footer {
