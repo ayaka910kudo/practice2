@@ -95,27 +95,45 @@ main .container {
 .recommend {
   width: 100%;
   min-height: 900px;
-  background-color: rgb(148, 148, 246);
+  background-color: #FCFCFC;
   display: flex;
-  /* padding: 0;
-  margin: 0; */
+  flex-direction: column;
 }
 
 .frame-recommend-title {
   width: 100%;
-  height: 30px;
-  background-color: chartreuse;
-  padding: 0;
-  margin: 0;
+  /* height: 30px; */
+  /* background-color: chartreuse; */
+  display: flex;
+  justify-content: center;
 }
 
-.frame-items{
+.box-recommend-title {
+  background: #61c0bf;
+  /* padding: 0px; */
+  border-radius: 25px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.box-recommend-title p {
+  color: white;
+}
+
+.frame-items {
   background-color: teal;
-  min-height: 50px;
+  /* min-height: 50px; */
   width: 100%;
 }
 
 footer {
   background-color: #ffb6b9;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-footer{
+  color: white;
 }
